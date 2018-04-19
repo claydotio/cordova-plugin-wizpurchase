@@ -74,7 +74,7 @@
 		<source-file src="src/android/com/android/vending/billing/IInAppBillingService.aidl" target-dir="app/src/main/aidl/com/android/vending/billing" />
 
 		<!-- Billing Key String Holder -->
-		<resource-file src="src/android/res/values/billing_key.xml" target="res/values/billing_key.xml" />
+		<resource-file src="src/android/res/values/billing_key.xml" target="app/src/main/res/values/billing_key.xml" />
 		<config-file target="res/values/billing_key.xml" parent="/*">
 			<string name="billing_key">$BILLING_KEY</string>
 		</config-file>
