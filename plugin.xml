@@ -71,7 +71,7 @@
 		<source-file src="src/android/com/smartmobilesoftware/util/SkuDetails.java" target-dir="src/com/smartmobilesoftware/util" />
 
 		<!-- Billing Classes -->
-		<source-file src="src/android/com/android/vending/billing/IInAppBillingService.aidl" target-dir="src/com/android/vending/billing" />
+		<source-file src="src/android/com/android/vending/billing/IInAppBillingService.aidl" target-dir="app/src/main/aidl/com/android/vending/billing" />
 
 		<!-- Billing Key String Holder -->
 		<resource-file src="src/android/res/values/billing_key.xml" target="res/values/billing_key.xml" />
